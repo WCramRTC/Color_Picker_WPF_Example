@@ -40,7 +40,7 @@
         </Slider>
         <TextBox x:Name="txtG" Canvas.Left="354" TextWrapping="Wrap" Canvas.Top="217" Width="37" HorizontalAlignment="Left" VerticalAlignment="Center"/>
         <TextBox x:Name="txtB" Canvas.Left="399" TextWrapping="Wrap" Canvas.Top="217" Width="37" HorizontalAlignment="Left" VerticalAlignment="Center"/>
-        <Button x:Name="btnDisplayColor" Content="Display Color" Canvas.Left="312" Canvas.Top="160" Height="33" Width="122"/>
+        <Button x:Name="btnDisplayColor" Content="Display Color" Canvas.Left="312" Canvas.Top="160" Height="33" Width="122" Click="btnDisplayColor_Click"/>
         <TextBox x:Name="txtColor" Canvas.Left="314" TextWrapping="Wrap" Canvas.Top="110" Width="120"/>
 
     </Canvas>
